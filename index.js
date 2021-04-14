@@ -24,4 +24,5 @@ return for ( i=0 ; i <routine.length ; i++){
   return routine[i](dogName,dogBreed)
   a.push(routine[i](dogName,dogBreed))
 }return a ;
- }
+ } let dogName = a;
+ let dogBreed= a ;
