@@ -17,6 +17,11 @@ function unleashDog(dogName, dogBreed) {
   return (`Unleash ${dogName} the ${dogBreed}`);
 }
 var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
-function exerciseDog(dog, breed) {
+function exerciseDog(dogName, dogBreedbreed) {
 //   return routine.map(fn => fn(dog, breed))
-// }
+let a = [];
+return for ( i=0 ; i <routine.length ; i++){
+  return routine[i](dogName,dogBreed)
+  a.push(routine[i](dogName,dogBreed))
+}return a ;
+ }
